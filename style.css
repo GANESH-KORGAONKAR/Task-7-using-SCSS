@@ -14,20 +14,23 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: grey;
+  background-color: white;
   gap: 10px;
+  margin: 0 10px;
 }
 main section {
-  height: 100%;
-  background-color: aqua;
+  height: 95vh;
+  border: 1px solid black;
   flex-grow: 1;
   background-position: center;
   background-size: cover;
-  transition: all 0.7s ease;
+  transition: all 0.8s ease;
   cursor: pointer;
+  border-radius: 30px;
 }
 main section:hover {
   flex-grow: 2;
+  border: 2px solid black;
 }
 main section:nth-child(1) {
   background-image: url(https://i.pinimg.com/736x/47/b0/e2/47b0e2750b1326f80f21335825dc23e9.jpg);
