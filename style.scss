@@ -32,7 +32,8 @@ main {
 
     section:hover {
         flex-grow: 2;
-        border: 2px solid black;
+        // border: 2px solid black;
+        border: none;
     }
 
     section:nth-child(1){
